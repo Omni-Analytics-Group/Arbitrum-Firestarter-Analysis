@@ -215,7 +215,8 @@ The voting absolutely didn't work AT ALL. There was very little voting and those
 
 - Procure the aggregate Snapshot data. 
 
-![](https://lh7-us.googleusercontent.com/XYQ4e2bJl2i9tlZCuy3HEewCFQg1-NEidRS4aqNGGx2MTjTyg2O0FBcgmaQ9kUzZY5mHZvFU-CURgLMW3SY2wIlLEcar0U-K69mCLlAXZKln19wEgQzol4BwqKT8SrVAnUTfWveiKySKore_J443bQ)
+<img src="Images/image12.png" align="center"/>
+<br>
 
 Another component of governance sense making contributors participated in during #GovMonth was an option ranking poll hosted by Snapshot.org.  For this task, voters were prompted with two sets of statements related to “Growth and Innovation” and ways Arbitrum could “Reduce Friction”.  The survey respondents were to rank order each statement according to their personal preference. The statements for each are as follows:
 
@@ -268,7 +269,9 @@ Reducing Friction- 
 This generated data in the following form where each column was an individual wallet address identified respondent and the columns indicated information about that wallet and their ultimate choice ranking of the individual statements. 
 
 With this data as a guide, we then took the initiative to perform a proper scrape of the underlying votes within the snapshot.  This data took the following form:\
-![](https://lh7-us.googleusercontent.com/ZvJIe7yKEkOeSrIj9yrOdxDw0YlmO9RTmyOaQMGIuTyyL85xmFrL79sXU86yJenY9cw6dYvS768wXcsPdWd3iLYCXV5zoVppCCuGCuUEz3y7kyUn9uHX8AprlhlyeI_rANzPO-1YjZOE9nwfUAizMg)
+
+<img src="Images/image21.png" align="center"/>
+<br>
 
 In this form, we had not only the wallet address and its ordering of statements, but also the total amount of Arbitrum held which affected the weighted rank of the statements voted on.  With that it was only a matter of summing up the rankings while also successfully accounting for the voting power.
 
@@ -308,7 +311,8 @@ To ease the process of interpretations We've used conditional formatting to colo
 
 If we simply sort by the "SumAvgRank" column, we get the following image:
 
-![](https://lh7-us.googleusercontent.com/A5HCvL2pXzivSi0CX-BqEJE-J6yKYvQy9KoxvzRd0rqIYo7PBNahz9fcbHr8S6VxzCA1MtxXM5UGas0jO2q49Ume01cW_bvaYiTWgw1c4zB_vUdQUYrcN1L5zJb3RU4I-ploMcTT_xvigCyJHq2CuA)
+<img src="Images/image20.png" align="center"/>
+<br>
 
 We see that for the "Reducting Friction" Snapshot, the "Prioritize Gas Fee optimization" was the highest ranking statement when we weight every voter equally.  This statement also appears to have been ranked 1st the most of other statements, was ranked last the least number of times and was ranked in the top 50%, 72% of the time.
 
@@ -360,35 +364,45 @@ In general, the ordering is similar, but at the top the previous number 2 statem
 
 One of the mandates of the Plurality Labs mandate is to experiment with innovative governance mechanisms that draw out different voices from across the Arbitrum eco-system.  One such experiment has revolved around the creation of trust contributor allow lists which leverage past participation in order to identify and surface the efforts of dedicated Abitrum citizens. To do so we aggregated all of the data across the entire #GovMonth effort; which included snapshot votes, ethelo surveys, jokerace responses, social media amplifications and other eco-system beneficial actions. This meta-dataset housed a total of 75,201 addresses whom performed at least one of the 36 trackable actions. Using domain knowledge from the Plurality Labs team, we utilized a simple dot product to combine the participant’s action matrix with a weighted score of each activity.  This culminated into a “MQuantParticipationScore” that we then used to sort and find active citizens. In addition to identifying active Govmonth participants, we were able to notice that none of the larger known delegates participated in the sense making governance exercise, which opens up an opportunity for additional engagement with some of the protocol stewards in future governance initiatives. 
 
-![](https://lh7-us.googleusercontent.com/PpKAtXLJJYee-G7zmhOMgg-Ptl-DlqTFZ8eCiIY4yz4sK84Ry-Bb0Kp2SZbsE64Qd5_IOgovFzIA5H67bzyl-cDhGu-GBVEwBgo5qLob1dNDNx6V3M8Vw8aApQaOwBP4iqMU4AQfgZPo_FZxh_h61A)
+<img src="Images/image22.png" align="center"/>
+<br>
 
-![](https://lh7-us.googleusercontent.com/_pH_uQkaEP0gD6ugGhr4FV51Nm8_ehcv4msnfVMb9tZSgC_a9zOgbkAHcUVq7osiwGcsnI6f7l8wE3JpdmQiA83qsAYBQewdKG_Mhm9jr1aLrTVdGyHxIhqYvTaROricCZ5H4Or5nyU51GkJGkuB3A)
+<img src="Images/image26.png" align="center"/>
+<br>
 
 - Aggregated all #GovMonth data into a singular spreadsheet.
 
-![](https://lh7-us.googleusercontent.com/-AR_9JwVQkC--wgF34QHMVwiwCYwexH7O8n1RGSAMR_H37c1V5pytckCWYpIZjQO1THlZ9zANQn1yeOPpCiBor5_id6Q8JNImONbtW_JM1cID1lREXrMNicyw3P_fc7EYBMdfmGtG7xwUIQLKfQGcg)
+<img src="Images/image25.png" align="center"/>
+<br>
 
 - Processed the columns to create a suitable analysis table where each row is a wallet address and each column indicates participation in that specific initiative.
 
-![](https://lh7-us.googleusercontent.com/1tS91YbkZMq_IuqkcyPQaFllg2zTQ3hvNGh0M1NQ6cYi87y06oKQ9twNLaC-EYJ5YMBAX5exbzpZWJr_ja5_aoYHoQjlPDuFOY0dImOGcV4RqBy6ogFEoiAG-JWlQJomV-KXOzdBaq6qZ0VC7eOVhQ)
+<img src="Images/image29.png" align="center"/>
+<br>
 
 - Expert knowledge was leveraged to generate weights for each task.
 
-![](https://lh7-us.googleusercontent.com/uFQwfnVeiQ_2wUuUgcOWVJHvajLQEK06m5Z5WgERtKg_H-KRjgxzSxXpMoP8KlgzrLziVvOfZpGm0iCx9rJspSd9P_H7h4sqtJZ8UeZspqZlWZFL30nMfCAIqodSVs4_byVhJmbu7SSbHRUOQXS1Yw)
+<img src="Images/image27.png" align="center"/>
+<br>
 
 - A simple dot product was taken across the participation matrix and scoring vector to produce participation scores for each wallet that interacted with Arbitrum through #GovMonth.
 
-![](https://lh7-us.googleusercontent.com/7wo1ILf7yqXGJo0QnMDsb_F1ALN2_MAqFBczyQYrM8kDXcpkuAO18QnhwsrK-Zgv3IwKNc1dQ-6BkxSvAc6B_nZnYDiOYAIjQtDvJ8T3wy36A0dwLWeNEejEC4PM6ypYx-9z8XUnbq4UDgglurM59w)
+<img src="Images/image28.png" align="center"/>
+<br>
 
 - Perform a preliminary investigation of how user defined segments participated.
 
-![](https://lh7-us.googleusercontent.com/7R54M4gOIyn3GVAsKlY_S_3nVUf54yATZccIKndssDogGnIis_2Fb7Ixom5wgaJzJ1_MNlgVuIJud1dTxAtofSitZeDbhYbc6Bn3hd5JcoCItZiEXati5l5bBDRpDaDEpVi1MamjT5GR)
+<img src="Images/image1.png" align="center"/>
+<br>
 
-![](https://lh7-us.googleusercontent.com/_BuEBs5QeJ0xw2Sb4QfB8mz0KDFPkoGGAakk6PwddlmkRsWMRd35qewEAyMs6klSl_aJ-_R--APys5W4r1rhgtxruineR06jJVKwMjrzuOFORaKAdJTUhaz3TbDdQK54rBtVDjyRbdpna5tEUXY68g)
+
+<img src="Images/image31.png" align="center"/>
+<br>
 
 This dataset also allowed us to begin thinking through allow lists and potential segmentations, but these aren’t the narrowed groups we’re ultimately looking for. The data we have now isn't super rich, but it probably suggests that you can't put a fixed time on contributions ... aka calling it "gov month" because people will start hot, slack off during the middle, and then finish strong....we see that in the data already with week 1 and week 4 being the highest. But for the purposes of scoring, yep those with the longest steaks are the ones that participated in the most events and therefore have a higher ranking. We see this from the graph below where Week 1 had 13,070 participants, Week 2 had 3,548, Week 3 had 1,585, and Week 4 had 6,750.
 
-![](https://lh7-us.googleusercontent.com/Hc_ZP4mLJU2odpwpWkIU_bagVsmw_UgxsKxshQUtG62PcKGePwpHM_h8OzOIBicpnn7c17zOvaVbjcGqSXWLc5GWzAdRTRNl0fU_fOcBpbqPZZUz0QIgrpKVL7OG3ZULajm85XOOPmUQIl5DByW4vQ)
+<img src="Images/image11.png" align="center"/>
+<br>
 
 **PROJECT 5: Karma Program and Engagement Analysis**
 
@@ -436,17 +450,25 @@ This dataset also allowed us to begin thinking through allow lists and potential
 
 - Collect Plurality Labs milestone 1 grantee data
 
-![](https://lh7-us.googleusercontent.com/-QdSuZ2LVpgXVueDEbT5ozs-Y3Iym0AhYyCkIxb4tjpvyqpgAv9lF2x6qpcx2i2qmaiujjlq8JpOUDjsQMQRS_dJGP2I5QzDunht4XfRZsR6QG8KKFhdVm7s764xC2xUzaWdAovmUag9)
+<img src="Images/image3.png" align="center"/>
+<br>
 
-![](https://lh7-us.googleusercontent.com/YOvXs3yunuSt7hu7dtaEQk2BxTaqWakm9EdlXXlwiGobxjDEb32MiW2V_W5Hpk58RNJqm8rAaZQQ-mhXE0CkHHGfX5jl0N5rDUZCedz_yVrP3cOE5yjXjGJJ1LGm_RMkkmIXl1zdoSma)
+
+<img src="Images/image15.png" align="center"/>
+<br>
+
 
 - Perform data manipulation and data cleaning
 
 Some grants were assigned multiple categories, other grants had multiple GrantIDs and, according to the data, two grants had the same title.  We accounted for this in the data munging portion.
 
-![](https://lh7-us.googleusercontent.com/7AePF3-snw3YRXJHVAxoRjG74ONVlzwGt6soqblLWf8VvHg_cv6abL2iDpnmWRy6KQZec6K1zt9MxedtOFUtXI5j2Qypq8tdw5kk1EYM7NpJIkGVpAM5otMc-BrTLDE7J3jWnqmrMUlJ)
+<img src="Images/image32.png" align="center"/>
+<br>
 
-![](https://lh7-us.googleusercontent.com/M48JYv0CaTMKlWed3_S2yBYXW6X8x43-kaAw0yg9UXGWl9M9mPGuTGBK6m7RgJOqd01g-ULcyisP8LCSAvFw1LY7iXpOAVXa_YgQKL6SEHJQ3WJieSLlw47Db76EiGOUhvHXcnlg4IbY)
+
+<img src="Images/image5.png" align="center"/>
+<br>
+
 
 1. Number of grants reviewed
 
@@ -454,7 +476,9 @@ Some grants were assigned multiple categories, other grants had multiple GrantID
 
 2. Top 10 grants reviewed
 
-![](https://lh7-us.googleusercontent.com/0ZYNT1dV-SKos1BDsAzbDLHArT4b6g449en6-oZ1Vo5tTY83hCPqeJjDlOnT-Ya74LmgmWrdqwsxgUyVxECrb-JqZtoYNaCYdTeySAARUEyfaXhgRx1qNagRR6950MoI6hcbPuMlgv_9)
+<img src="Images/image16.png" align="center"/>
+<br>
+
 
 3. Number of reviewers (unique public addresses)
 
@@ -471,19 +495,27 @@ Median and mean number of reviews per reviewer is 2.
 
 5. Top reviewers
 
-![](https://lh7-us.googleusercontent.com/3qikxG-Tj1iqJG6gWwK8INEkmTht8uA4AMPTN5iGM23Izli23WTSMwuO1c5YRKLSwNaJzHXgyYBBbt6Ue2FFi9Tl4MY02l3yvyU4v0PgyDzZ1178ZREbvDjWIo3-zfX408f2e2wPaEcR)
+<img src="Images/image4.png" align="center"/>
+<br>
+
 
 6. Number of Reviews by category
 
-![](https://lh7-us.googleusercontent.com/D5RxxIxrytMNMdVwgOALdl8MBSv2Oak90vMCVkBB8luooliq-TLEjZ8vqqaCi_nqzq4yXgnVwVtPjG7GX-K2rZ0AgKU7AamCqdidhdCrmwAPFeB59y8gkfgoqQ80ZyxD8jFATWrigRlS)
+<img src="Images/image2.png" align="center"/>
+<br>
+
 
 7. Number of Reviews by second category
 
-![](https://lh7-us.googleusercontent.com/seU0mEHJyiUH7jKzH63SOY1Pxfy96GUdwdRteDFT0q2HsQgrYpz4hXwzQAp5rlV1iOpqaUDGeit5Ka7kV_c_u5fTqNgM9_Hq4oEujAmydS9JP9RJwuMzT8OtLOkP4w_ktrZiMbvv3e1h)
+<img src="Images/image14.png" align="center"/>
+<br>
+
 
 8. Number of reviews combining all categories
 
-![](https://lh7-us.googleusercontent.com/V5TkpBC5i83nXwMzHUBq7m8whc2r-uHEvfIi64yMflFnFqgea8X4mzXqkffZsuAi-Ul0NxTEMlRyPlk4GTzou-U_s9yPiYgsIvZXlfOcrKXkHP-eNVrm-lZcAT0Jl9ord88Xlf1XBS9p)
+<img src="Images/image17.png" align="center"/>
+<br>
+
 
 **PROJECT 6: Contributor “Capture Rate” Analysis**
 
@@ -521,7 +553,9 @@ According to our ThankARB / GovMonth data there are 75,201 unique wallet address
 
 \`**ActivityPropCorrectUsers**\` is all users not including only snapshot users.
 
-![](https://lh7-us.googleusercontent.com/P19JSK1DsMWPO-tvRKVpk8I0gZAYqgRrQMTo8wfE7WzRC4NZ9hs9euFvalnuNqtsE_JQKwLBAMsnCoty3Tr_DD81CDREHsaL2gta_ncEkqOoKe03grL4acnN0t0DBu-2wWl_Bhvu8aB0)
+<img src="Images/image9.png" align="center"/>
+<br>
+
 
 A direct interpretation of the first row is: 13.9% of all of the wallets in the dataset participated in the Week1 Push according to ActivityPropAllUsers but using the ActivityPropCorrectUsers column (which is corrected by removing the snapshot only voters) 61% of the wallet addresses participated in that activity.
 
@@ -531,18 +565,28 @@ Because of this opportunity as a Firestarter grantee we’ve been able to not on
 
 - Participated in the Allo x Gitcoin hackathon with 3 submissions: a data extractor, dashboard and gamified Gitcoin allocation mechanism for Arbitrum hosted grants.Created an R package that makes it easier to pull data on arbitrum hosted rounds on gitcoin.  This work will be one of the submissions to the Allo x Arbitrum hackathon
 
-![](https://lh7-us.googleusercontent.com/9RngOG4ynmOIJBzViVg_6vOakzFh-hvjEneS9clUW9qtKUP8crnRglC3qmPmZFoNPVnhHxss-zIa4yx0r76zRt3GkCXRYO8z-OfCw3QgROPFguPXC4PFxQXXTGVP0F4ZX56gKL_aFw9Q)
+<img src="Images/image7.png" align="center"/>
+<br>
+
 
 - Our community developed a speed-run game Omniacs.Run! now has Arbitrum related content. We intend to further interweave Arbitrum branding and content as we develop the game.
 
-![](https://lh7-us.googleusercontent.com/GE4RiYBYCPeltWH9b80erwbhPNQyqUEbOFIDn00yDaiAJO2K2T_4jQp3jzdqdX71GZBHnTlDnXaNdc70qCNvR2snn7CX4atQY7WKQ3w_uu3ilXW1almKiwv3GTrWgotJJIydX5mcOUju)
+<img src="Images/image6.png" align="center"/>
+<br>
+
 
 - Investigating how we can fork Optimisms successful RPGF “RegenScore” project for Arbitrum
 
 - Initiated a partnership with the University of Alabama in Huntsville to host a Capstone Project that creates a governance participation score using forum activity as a proxy for civic effort.
 
-![](https://lh7-us.googleusercontent.com/3yKZXmwO9r0xleAzYvLEy-99Ro4NP5dKtduHlgVh1Jzs1taP6HZLWePHRTJ3-I13tlut666wJrkpGpzeR4TxHilHoDgYCRZ0Be30JBhlUkxMajOgO2719IvCz1w4MQF9P9DicaVmcZ1m)
+<img src="Images/image24.png" align="center"/>
+<br>
 
-![](https://lh7-us.googleusercontent.com/lHmGkxLP5cYsfMWLkFRAGwoim-1vBHX5joekP1YO4z1F8UzTOV3TJdOueo-pSr5oN-ZXizxdU1RKZxICnFMZMvIliH-1AdTO6oJ7vA1eDPloT7jKdexxr5QdNl_qbwN-4_MiTWWbMPE7)
 
-![](https://lh7-us.googleusercontent.com/Cu87WtwfiE35Wem6ZniW7U4X8TmI6nKz0snN7LBVsl75f-X8V3ywP8J_guCPWVtxAQnRe6-I8gyCkWOJugcAGC7gLmqkwjKd0Li6rFEsEyccLC3DaqGDkpv8B6OaUXcj9oUhe4Re3xLC)
+<img src="Images/image10.png" align="center"/>
+<br>
+
+
+<img src="Images/image6.png" align="center"/>
+<br>
+
