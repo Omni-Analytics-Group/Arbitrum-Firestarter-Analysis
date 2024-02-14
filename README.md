@@ -1,5 +1,4 @@
-# Arbitrum-Firestarter-Analysis
-Arbitrum Firestarter Analysis
+# Arbitrum Firestarter Analysis
 
 **OmniAnalytics Firestarter Grantee Report Overview**
 
@@ -13,7 +12,7 @@ The Firestarter grant given by Plurality Labs on behalf of the Arbitrum DAO to O
 
 - Demonstrate and share effective methods of analyzing data for future use.
 
-**Funding / Timeline:** 65,399 $ARB / September 10th, 2023  - January 1st, 2024
+**Timeline:** September 10th, 2023  - January 1st, 2024
 
 **PROJECT 1: Analyze Jokerace submissions for Vision, Mission, Short-term and Long-term priorities**
 
@@ -575,12 +574,9 @@ Because of this opportunity as a Firestarter grantee we’ve been able to not on
 <br>
 
 
-- Investigating how we can fork Optimisms successful RPGF “RegenScore” project for Arbitrum
+- Investigating how we can fork Optimisms successful RPGF “RegenScore” project for Arbitrum.
 
 - Initiated a partnership with the University of Alabama in Huntsville to host a Capstone Project that creates a governance participation score using forum activity as a proxy for civic effort.
-
-<img src="Images/image24.png" align="center"/>
-<br>
 
 
 <img src="Images/image10.png" align="center"/>
