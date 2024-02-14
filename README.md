@@ -571,7 +571,7 @@ Because of this opportunity as a Firestarter grantee we’ve been able to not on
 
 - Our community developed a speed-run game Omniacs.Run! now has Arbitrum related content. We intend to further interweave Arbitrum branding and content as we develop the game.
 
-<img src="Images/image6.png" align="center"/>
+<img src="Images/image30.png" align="center"/>
 <br>
 
 
