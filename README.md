@@ -101,27 +101,33 @@ Using some standard data science wizardry, we were able to procure the responses
 
 The data was then cleaned by removing HTML tags, stem words, duplicates and filtering out low quality submissions. We’ll gloss over the effort required to filter out “low quality submissions”, but it involved using regex and grade level calculations to automatically root out submissions that were clearly uninformative.
 
-![](https://lh7-us.googleusercontent.com/QRs3QhVm9yXp4roIUhHimYhSYOLiNPWZbNlDkZ4rWlGBBWmATH6nxCj2DWK2mDNzIySw2EicsD8WXh0V74VraOj6P9ncxld5Lrthp1T9DOZPEz1h9DCWvzK79IM8oAmWT4WKdrqM38dpIBPRUuqlUg)
+<img src="Images/image18.png" align="center"/>
+<br>
 
 Our text analysis returned a bottom up view of contributor responses by processing all 19,992 individual free form written responses into insights used by the Plurality team to generate their “Strategic Framework” document to the DAO. 
 
 - Conducted text analysis on the responses using the following techniques:
 
-![](https://lh7-us.googleusercontent.com/4aSwKxcybutK9tMRPox_xACXX3D6mFPZ1ExYL_dWOn5_n2p1qs4nQaEWVHw18YyX1pTksrf_leAnpb_TsrYbfh72JVz9a93EnFFAXF5-vRNwHVLb92dwXXf_-O_DfZ5CMdnwgPlPh6WsQWofVEQKTw)
+<img src="Images/image8.png" align="center"/>
+<div align="center">n-gram analysis</div>
+<br>
 
-n-gram analysis
 
-![](https://lh7-us.googleusercontent.com/O2j5O2nTmTXDLRmw5O5Ov659axeNFo9m3EtZYSCq9UP0JbVLqIlXbf4lercraTbWUv516xAYUsJpNlri9WN0dUjaRlck9TZ8004_Y1dMIZ73LAX37jbMtqBz7K8OCfhyZDAsZuK_PnlP)
+<img src="Images/image23.png" align="center"/>
+<div align="center">Parts of speech tagging</div>
+<br>
 
-Parts of speech tagging
 
-![](https://lh7-us.googleusercontent.com/yls5I0HZSbvZgfcNa4vfmVPnlU_XoXU4Tx6OHdqY6l79kbjC9HyBb9ErkxYL_lBzdzLX9q0jM0gpnuGc5RasSilAAHpJejmkLtltZmFlMf2laV7SFRpI1mS2SV6IwK_iyU_KVlog-i4A)
 
-Topic Analysis with LDA
+<img src="Images/image13.png" align="center"/>
+<div align="center">Topic Analysis with LDA</div>
+<br>
+
 
 - Drafted a 3 page summary document continuing the common themes and stand out responses for each topic of inquiry.
 
-![](https://lh7-us.googleusercontent.com/xTGIABiTy1CbOt63y4ap99_bEpUxbjOtDn0XAhONR4ddXd6GztwjNQ9gVD1yr-_YyxX6M9shShmfvxtIupOBAiru2kMJy2S53TulszGgDwLcZCl8EYMGFupDdjhiofr_GKM0UjH3vjfYT5194P408g)
+<img src="Images/image19.png" align="center"/>
+<br>
 
 - Conclusion
 
